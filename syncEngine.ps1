@@ -18,6 +18,8 @@
 #    [string]$DestinationGroupId
 #)
 
+Connect-MgGraph -Scopes Groups.ReadWrite.All
+
 $SourceGroupId = "334c896f-ef5c-46bd-887c-ee8103c95032"
 $DestinationGroupId = "3897ac3c-dc62-499f-952e-e0958f0482ae"
 
