@@ -94,5 +94,5 @@ catch {
 }
 finally {
     # Disconnect Graph Session
-    #Disconnect-MgGraph
+    Disconnect-MgGraph
 }
